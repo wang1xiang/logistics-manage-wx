@@ -1,29 +1,7 @@
-# my-project
+**# my-project**
 
-## Project setup
-```
-yarn install
-```
+#### 订单管理 小程序版
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+##### 使用vue开发 通过uni-app打包生成小程序代码
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##### 组件使用uni-app[插件市场}](https://ext.dcloud.net.cn/)
