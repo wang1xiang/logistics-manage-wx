@@ -53,6 +53,20 @@
 	"quickapp": { /* 快应用特有相关 */
 
 	},
+	"h5": {
+		"devServer" : {
+			"port" : 80,
+			"disableHostCheck": true,  
+			"proxy": {
+				"/api": {
+					"target": "http://106.53.238.43:8080",
+					"changeOrigin": true,   
+					"secure": false,
+					"pathRewrite": {"^/api" : "/"}
+				}
+			}
+		}
+	},
 	"mp-weixin": { /* 微信小程序特有相关 */
 		"appid": "",
 		"setting": {
